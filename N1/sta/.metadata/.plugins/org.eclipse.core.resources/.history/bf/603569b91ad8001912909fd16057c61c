@@ -1,0 +1,24 @@
+package com.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Controller
+public class MemberController {
+	
+	@RequestMapping("/login")
+	public void login() {
+		log.info("login 컨트롤러 동 작");;
+		
+	}
+	
+	@RequestMapping("/logout")
+	public void logout() {
+		log.info("logout 컨트롤러 동 작");;
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script>
+
+	function checkform(){
+		//이름이 비어있지 않고, 2~4자리까지만 허용
+		//범위를넘어가면 경고창 띄우기
+		
+		
+		//나이:비어이지않고,0~120까지만 허용
+		//경고창 띄우기
+	}
+</script>
+</head>
+<body>
+	<form action="">
+		<div>
+			<label for="name">이름</label>
+			<input type="text" name="name" id="name"/>
+		</div>
+		<div>
+			<label for="age">나이</label>
+			<input type="number" name="age" id="age" min="5" max="10" required="required"/>
+		</div>
+		<div>
+			<label for="date">날짜</label>
+			<input type="date" name="date" id="date" min="2019-08-01" max="2019-08-29" required="required"/>
+		</div>
+		
+		<div>
+			<input type="submit" value="보내기"/>
+		</div>
+	
+	</form>
+</body>
+</html>

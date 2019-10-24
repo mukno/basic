@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<div>
+			<label for="name">이름</label>
+			<input type="text" name="name" id="name"/>
+		</div>
+		
+		<div>
+			<input type="submit" value="보내기"/>
+		</div>
+	
+	</form>
+</body>
+</html>

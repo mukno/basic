@@ -1,0 +1,83 @@
+package web.BordDAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import org.web.memberdao.MemberDAO;
+
+import web.DBConnect.DBConnect;
+import web.bordDTO.BordDTO;
+
+public class BordDAO {
+
+private BordDAO() {
+		
+	}
+	private static class Singleton{
+		private static final BordDAO INSTANCE=new BordDAO();
+	}
+	public static BordDAO getInstance() {
+		return Singleton.INSTANCE;
+	}
+	
+	
+	public ArrayList<BordDTO> BordList(){
+		ArrayList<BordDTO> lists=new ArrayList<BordDTO>();
+		Connection conn=null;
+		PreparedStatement pstm=null;
+		ResultSet rs=null;
+		
+		
+		conn=DBConnect.getConnection();
+		
+		String query="select *from bord0722 order by mGroup desc,step asc";
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			rs=pstm.executeQuery();
+			
+			while(rs.next()) {
+				
+				lists.add(new BordDTO(rs.getInt(1),rs.getInt(2),rs.getInt(3),
+						rs.getInt(4),rs.getInt(5),rs.getString(6),rs.getString(7),
+						rs.getString(8),rs.getString(9),rs.getString(10),rs.getTimestamp(11)));
+			}
+			
+			
+		}catch(SQLException e){
+			e.printStackTrace();
+			
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(SQLException e){
+				e.printStackTrace();
+			}finally {
+				
+			}
+			
+		}
+		
+		
+		
+		
+		return lists;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

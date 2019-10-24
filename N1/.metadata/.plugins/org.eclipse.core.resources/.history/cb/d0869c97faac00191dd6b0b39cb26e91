@@ -1,0 +1,12 @@
+package org.web.memberdao;
+
+public class MemberDAO {
+
+	private MembeDAO() {
+		
+	}
+	
+	
+	
+
+}

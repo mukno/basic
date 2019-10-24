@@ -1,0 +1,16 @@
+package org.web.memberdto;
+
+import java.sql.Timestamp;
+
+public class memberDto {
+
+	private String userId;
+	private String userPw;
+	private String nickname;
+	
+	
+	
+	
+
+
+}

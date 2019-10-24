@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;dbcp_member&apos; to &apos;dbcp_members&apos;&#x0D;&#x0A;- Original element: &apos;dbcp_member&apos;&#x0D;&#x0A;- Renamed element: &apos;dbcp_member&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;dbcp_member&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=dbcp_member" name="dbcp_members" references="true" stamp="1567992168192" version="1.0"/>
+</session>

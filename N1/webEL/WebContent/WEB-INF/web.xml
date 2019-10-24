@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>webEL</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- 모든 서블릿에서 설정,사용,공용 -->
+  <context-param>
+  <description>url </description>
+  	<param-name>url</param-name>
+  	<param-value>jdbc:mysql://localhost:3306/javastudy?useSSL=false</param-value>
+  </context-param>
+  <context-param>
+  <description>user Id</description>
+  <param-name>user</param-name>
+  <param-value>root</param-value>
+  </context-param>
+
+	  <context-param>
+	  <description>user PW</description>
+  <param-name>password</param-name>
+  <param-value>12345</param-value>
+  </context-param>
+	
+	
+	<!-- 특정 서블릿에 초기화 파라미터 설정 -->
+<servlet>
+<servlet-name>Controller</servlet-name>
+<servlet-class>org.controller.Controller</servlet-class>
+<!-- 다른 서블릿에서는 사용할 수 없다. -->
+<init-param>
+	<param-name>userId</param-name>
+	<param-value>m1</param-value>
+</init-param>
+<init-param>
+	<param-name>userPw</param-name>
+	<param-value>12345</param-value>
+	</init-param>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Controller</servlet-name>
+	<url-pattern>/update.do</url-pattern>
+</servlet-mapping>
+
+
+
+  
+</web-app>

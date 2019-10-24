@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#header{
+	height:40px;
+	background:black;
+	color:white;
+}
+#hContent{
+	margin:0 0 0 112px;
+	
+}
+#leftContent{
+	
+	
+}

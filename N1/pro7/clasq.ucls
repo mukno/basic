@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.web.dbconnect.DBConnect" project="pro7" 
+    file="/pro7/src/org/web/dbconnect/DBConnect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="822" y="387"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.web.membercommend.IdCheckedMo" project="pro7" 
+    file="/pro7/src/org/web/membercommend/IdCheckedMo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1338" y="258"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.web.membercommend.joinOk" project="pro7" 
+    file="/pro7/src/org/web/membercommend/joinOk.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="967" y="263"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.web.membercommend.login" project="pro7" 
+    file="/pro7/src/org/web/membercommend/login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="596" y="264"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.web.membercommend.logOut" project="pro7" 
+    file="/pro7/src/org/web/membercommend/logOut.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="365" x="41" y="212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="org.web.membercommend.MemberCommend" project="pro7" 
+    file="/pro7/src/org/web/membercommend/MemberCommend.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="223" y="370"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="org.web.membercontroller.MemberController" project="pro7" 
+    file="/pro7/src/org/web/membercontroller/MemberController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="298" x="467" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.web.memberdao.MemberDao.Singleton" project="pro7" 
+    file="/pro7/src/org/web/memberdao/MemberDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="393" y="458"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.web.memberdao.MemberDao" project="pro7" 
+    file="/pro7/src/org/web/memberdao/MemberDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="593" y="486"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.web.memberdto.MemberDto" project="pro7" 
+    file="/pro7/src/org/web/memberdto/MemberDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="834" y="622"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <nesting id="12">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="17">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="18" name="INSTANCE"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="22">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="23">    
+    <bendpoint x="436" y="212"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="26">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="simplebook_connectionPool"/>
+<aop-project name="spring_book"/>
+<aop-project name="spring_rest"/>
+<aop-project name="simplebook"/>
+<aop-project name="spring_aop_annotation">
+<aspect-definition advice-class-name="com.spring.aop.LogAdvice" advice-method-name="afterReturnLog" advice-type="AFTER_RETURNING" aspect-end-line-number="10" aspect-name="log" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.spring.aop.Product.getInfo())" proxy-target-class="false">
+<aop-reference advice-type="AFTER_RETURNING" bean="1:BeansModel|2:spring_aop_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:product:8" bean-file="/spring_aop_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" source="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{LogAdvice.java[LogAdvice~afterReturnLog" source-start-line="34" target="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{Product.java[Product~getInfo" target-start-line="14"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.spring.aop.LogAdvice" advice-method-name="beforeLog" advice-type="BEFORE" aspect-end-line-number="10" aspect-name="log" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.spring.aop.Product.getInfo())" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:spring_aop_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:product:8" bean-file="/spring_aop_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" source="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{LogAdvice.java[LogAdvice~beforeLog" source-start-line="16" target="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{Product.java[Product~getInfo" target-start-line="14"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.spring.aop.LogAdvice" advice-method-name="afterlog" advice-type="AFTER" aspect-end-line-number="10" aspect-name="log" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.spring.aop.Product.getInfo())" proxy-target-class="false">
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:spring_aop_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:product:8" bean-file="/spring_aop_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" source="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{LogAdvice.java[LogAdvice~afterlog" source-start-line="20" target="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{Product.java[Product~getInfo" target-start-line="14"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.spring.aop.LogAdvice" advice-method-name="aroundLog(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="log" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.spring.aop.Product.getInfo())" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:spring_aop_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:product:8" bean-file="/spring_aop_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" source="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{LogAdvice.java[LogAdvice~aroundLog~QProceedingJoinPoint;" source-start-line="41" target="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{Product.java[Product~getInfo" target-start-line="14"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.spring.aop.LogAdvice" advice-method-name="afterThrowingLog" advice-type="AFTER_THROWING" aspect-end-line-number="10" aspect-name="log" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.spring.aop.Product.getInfo())" proxy-target-class="false">
+<aop-reference advice-type="AFTER_THROWING" bean="1:BeansModel|2:spring_aop_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:product:8" bean-file="/spring_aop_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_aop_annotation/src/main/resources/applicationContext.xml" source="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{LogAdvice.java[LogAdvice~afterThrowingLog" source-start-line="27" target="=spring_aop_annotation/src\/main\/java&lt;com.spring.aop{Product.java[Product~getInfo" target-start-line="14"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="spring_sample"/>
+<aop-project name="simplebook_mybatis"/>
+<aop-project name="spring_aop"/>
+<aop-project name="spring_board"/>
+<aop-project name="handlerInterceptor"/>
+<aop-project name="fileupload"/>
+<aop-project name="simpleboard"/>
+<aop-project name="spring.basic.xml.bean"/>
+<aop-project name="spring.factorial_annotation">
+<aspect-definition advice-class-name="com.spring.factorial.ExeTimeAspect" advice-method-name="measure(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="exeTimeAspect" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring.factorial_annotation/src/main/resources/applicationContext.xml" pointcut-expression="execution(* com.spring.factorial..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:spring.factorial_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:rec:8" bean-file="/spring.factorial_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring.factorial_annotation/src/main/resources/applicationContext.xml" source="=spring.factorial_annotation/src\/main\/java&lt;com.spring.factorial{ExeTimeAspect.java[ExeTimeAspect~measure~QProceedingJoinPoint;" source-start-line="15" target="=spring.factorial_annotation/src\/main\/java&lt;com.spring.factorial{RecImpl.java[RecImpl~factorial~J" target-start-line="9"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:spring.factorial_annotation|3:src/main/resources/applicationContext.xml|7:beans:8|8:fact:8" bean-file="/spring.factorial_annotation/src/main/resources/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring.factorial_annotation/src/main/resources/applicationContext.xml" source="=spring.factorial_annotation/src\/main\/java&lt;com.spring.factorial{ExeTimeAspect.java[ExeTimeAspect~measure~QProceedingJoinPoint;" source-start-line="15" target="=spring.factorial_annotation/src\/main\/java&lt;com.spring.factorial{FactImpl.java[FactImpl~factorial~J" target-start-line="10"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="spring_di_annotation"/>
+<aop-project name="spring_register"/>
+<aop-project name="simpleboard_connectionPool"/>
+<aop-project name="simpleboard_mybatis"/>
+<aop-project name="transaction_oracle"/>
+</aop-reference-model>

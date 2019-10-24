@@ -1,0 +1,7 @@
+package org.web.membercontroller;
+
+import javax.servlet.http.HttpServlet;
+
+public class MemberController extends HttpServlet{
+
+}

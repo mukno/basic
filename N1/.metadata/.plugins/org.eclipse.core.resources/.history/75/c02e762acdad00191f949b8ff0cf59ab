@@ -1,0 +1,54 @@
+@charset "UTF-8";
+*{
+	font-family: Lato-Black, Lato-Bold, sans-serif;
+	
+}
+#header{
+	width:100%;
+	height:150px;
+	position:fixed;
+	background:#000;
+	left:0;
+	top:0;
+	
+	
+}
+#header #headerTop{
+	height:auto;
+	background:#555;
+	
+}
+#header #headerTop h1{
+	width:98%;
+	max-width: 1000px;
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	font-size:60px;
+	position:relative;
+	line-height: 100px;
+	
+	
+	
+}
+#header #headerContent{
+	width:98%;
+	max-width:1000px;
+	background:#000;
+	margin:0 auto;
+	overflow:hidden;/*float속성 적용시 부모태그 */
+	position:relative;
+	
+	letter-spacing: 5px;
+}
+#header #headerContent >ul > li{
+	width:20%;
+	border:1px solid #ccc;
+	float:left;/*부모기준 재배치*/
+	box-sizing: border-box;
+	text-align:center;
+	line-height:40px;/*자동으로 세로 가운데 자간*/
+}
+#header #headerContent >ul > li a{
+	color:#fff;
+}

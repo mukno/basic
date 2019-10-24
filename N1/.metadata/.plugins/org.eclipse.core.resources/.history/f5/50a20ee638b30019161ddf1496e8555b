@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 100%;
+	height: 100%;
+}
+
+#index {
+	width: 100%;
+	height: auto;
+}
+
+#indexContent {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#indexContent .leftContent {
+	width: 40%;
+	height: 100%;
+	background: url(../img/left.jpg) no-repeat;
+	background-position: 50% 0;
+	background-size: cover; position : fixed;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+/*rightContent*/
+#indexContent .rightContent {
+	width: 60%;
+	height: auto;
+	float: right;
+}
+
+/*top*/
+#indexContent .rightContent .top {
+	padding: 200px 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#indexContent .rightContent .top h1.title {
+	font-size: 60px;
+	text-align: center;
+	line-height: 100px;
+}
+
+#indexContent .rightContent .top span.t1 {
+	font-size: 16;
+	letter-spacing: 1px;
+}
+
+/*contetn*/
+#indexContent .rightContent .content {
+	height: auto;
+	overflow: hidden;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#indexContent .rightContent .content .left {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#indexContent .rightContent .content img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border: 0;
+}
+
+#indexContent .rightContent .content .right {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+#indexContent .rightContent .content h1.title2 {
+	font-weight: lighter;
+	color: #555;
+	padding: 10px;
+}
+
+#indexContent .rightContent .content li {
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#indexContent .rightContent .content .about{
+	border : 1px solid;
+	clear:both;
+	margin-top:50px;
+	box-sizing:border-box;
+	
+}
+#indexContent .rightContent .content .about h1.title3{
+	color:#555;
+	line-height:100px;
+	font-weight:lighter;
+}
+#indexContent .rightContent .content .about .aboutContent{
+	color:#555;
+	line-height:22px;
+	text-align:justify important;
+	
+}
+#indexContent .rightContent .content .skill{
+	border:1px solid #f00;
+	
+}
+#indexContent .rightContent .content .skill h1.title4{
+		color:#555;
+	line-height:100px;
+	font-weight:lighter;
+}
+#indexContent .rightContent .content .skill h2.st{
+		color:#666;
+	line-height:60px;
+	font-weight:lighter;
+	letter-spacing: 5px;
+	font-size: 20px
+}
+#indexContent .rightContent .content .skill .box{
+	background:#ccc;
+}
+
+#indexContent .rightContent .content .skill .box span{
+	
+	line-height:30px;
+	background:#555;
+	display: block;
+	color:#fff;
+	text-align:center;
+}
+
+#indexContent .rightContent .content .skill .box.s1 span{
+	width:95%;
+}
+
+#indexContent .rightContent .content .skill .box.s2 span{
+	width:85%;
+}
+
+#indexContent .rightContent .content .skill .box.s3 span{
+	width:75%;
+}
+#indexContent .rightContent .content .skill .skill2{
+	background:#555;
+	overflow:hidden;
+}
+
+#indexContent .rightContent .content .skill .skill2 ul li{
+	width:25%;
+	line-height:50px;
+	float:left;
+	background:#555;
+	text-align: center;
+	color:#fff;
+	font-weight: 300;
+	
+	
+}
+
+
+
+
+

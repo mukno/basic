@@ -1,0 +1,509 @@
+package web.BordDAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+
+import web.DBConnect.DBConnect;
+import web.bordDTO.BordDTO;
+
+
+public class BordDAO {
+	
+	private BordDAO() {}
+	private static class Singleton{
+		private static final BordDAO INSTANCE = new BordDAO();
+	}
+	public static BordDAO getInstance() {
+		return Singleton.INSTANCE;
+	}
+
+	
+	public BordDTO replyView(String mId){
+		
+		BordDTO dto2=new BordDTO();
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="select *from bord_reply where mId=?";
+		
+		conn=DBConnect.getConnection();
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mId);
+			
+			rs=pstm.executeQuery();
+			
+			while(rs.next()) {
+				
+				dto2=new BordDTO(rs.getInt(1),rs.getInt(2),rs.getInt(3),rs.getInt(4),rs.getInt(5),
+						rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10),
+						rs.getTimestamp(11));
+				
+			}
+			
+			
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return dto2;
+	}
+	public int mIdSelect(int mGroup,String userId) {
+		int result=0;
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="select mId from bord_reply where mGroup=? and userId=?";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			pstm.setInt(1, mGroup);
+			pstm.setString(2, userId);
+			rs=pstm.executeQuery();
+			while(rs.next()) {
+			result=rs.getInt(1);
+			}
+			System.out.println("daoas:"+result);
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return result;
+		
+	}
+
+	public int mGroupSelect() {
+		System.out.println("mg in");
+		int result=0;
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="select case count(*) when 0 then 1 else max(mGroup)+1 end from bord_reply b1";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			rs=pstm.executeQuery();
+			while(rs.next()) {
+			result=rs.getInt(1);
+			}
+			System.out.println("daos:"+result);
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return result;
+	}
+	
+	public int replywrite(String title,String memo,String mGroup,String step,String nickname,String mPw) {
+		int result=0;
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="insert into bord_reply(mGroup,mIndent,step,hit,nickname,userId,mPw,memo,title,mTime)"
+				+"values(?,0,(select max(step) from bord_reply a where mGroup=?)+1,0,?,'user',?,?,?,now())";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mGroup);
+			pstm.setString(2, mGroup);
+			pstm.setString(3, nickname);
+			pstm.setString(4, mPw);
+			pstm.setString(5, memo);
+			pstm.setString(6, title);
+			
+			result=pstm.executeUpdate();
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return result;
+	}
+	public int write(String nickname,String userId,String mpw,String title,String memo) {
+		System.out.println("writ in");
+		String mGroup=Integer.toString(mGroupSelect());
+		int result=0;
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="insert into bord_reply(mGroup,step,hit,mIndent,nickname,userId,mpw,title,memo,mTime)"
+				+"values(?,0,0,0,?,?,?,?,?,now())";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mGroup);
+			pstm.setString(2, nickname);
+			pstm.setString(3, userId);
+			pstm.setString(4, mpw);
+			pstm.setString(5, title);
+			pstm.setString(6, memo);
+			
+			result=pstm.executeUpdate();
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return result;
+	}
+	
+	public int update(String nickname,String userId,String mPw,String title,String memo,String mId) {
+		int result=0;
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="update bord_reply set nickname=? ,hit=hit+1, mPw=? , title=? ,memo=?,mTime=now() where userId=? and mId=?";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, nickname);
+			pstm.setString(2, mPw);
+			pstm.setString(3, title);
+			pstm.setString(4, memo);
+			pstm.setString(5, userId);
+			pstm.setString(6, mId);
+			
+			result=pstm.executeUpdate();
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return result;
+	}
+	
+
+	public int delete(String mId,String userId,String mPw) {
+		int result=0;
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="delete from bord_reply where mId=? and userId=? and mPw=?";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mId);
+			pstm.setString(2, userId);
+			pstm.setString(3, mPw);
+			
+			result=pstm.executeUpdate();
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		mIdReset(mId);
+		return result;
+	}
+	
+	public void mIdReset(String mId) {
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="";
+		
+		conn=DBConnect.getConnection();
+		query="update bord_reply set mId=mId-1 where mId>?";
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mId);
+			
+			pstm.executeUpdate();
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+	}
+	
+	
+	public void hit(String mId) {
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		System.out.println(mId);
+		String query="update bord_reply set hit=hit+1 where mId=?";
+		
+		conn=DBConnect.getConnection();
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mId);
+			
+			pstm.executeUpdate();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		
+	}
+	
+	public BordDTO bordView(String mId){
+		hit(mId);
+		
+		BordDTO dto=new BordDTO();
+		Connection conn=null;
+		PreparedStatement pstm =null;
+		ResultSet rs=null;
+		
+		String query="select *from bord_reply where mId=?";
+		
+		conn=DBConnect.getConnection();
+		
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setString(1, mId);
+			
+			rs=pstm.executeQuery();
+			
+			while(rs.next()) {
+				
+				dto=new BordDTO(rs.getInt(1),rs.getInt(2),rs.getInt(3),rs.getInt(4),rs.getInt(5),
+						rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10),
+						rs.getTimestamp(11));
+				
+			}
+			
+			
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally {}
+			
+		}
+		
+		
+		return dto;
+	}
+	
+	
+	public ArrayList<BordDTO> BordList(){
+		ArrayList<BordDTO> lists=new ArrayList<BordDTO>();
+		Connection conn=null;
+		PreparedStatement pstm=null;
+		ResultSet rs=null;
+		
+		
+		conn=DBConnect.getConnection();
+		
+		String query="select *from bord_reply order by mGroup desc,step asc";
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			rs=pstm.executeQuery();
+			
+			while(rs.next()) {
+				
+				lists.add(new BordDTO(rs.getInt(1),rs.getInt(2),rs.getInt(3),
+						rs.getInt(4),rs.getInt(5),rs.getString(6),rs.getString(7),
+						rs.getString(8),rs.getString(9),rs.getString(10),rs.getTimestamp(11)));
+			}
+			
+			
+		}catch(SQLException e){
+			e.printStackTrace();
+			
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(SQLException e){
+				e.printStackTrace();
+			}finally {
+				
+			}
+			
+		}
+		
+		
+		
+		
+		return lists;
+	}
+	
+	
+	
+}

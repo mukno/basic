@@ -1,0 +1,18 @@
+1562632025690	Rename package 'web.memberCommend'
+1562632090449	Rename package 'web.memberController'
+1562632182893	Rename compilation unit 'DBConnect.java'
+1562633215653	Rename compilation unit 'BordDto.java'
+1562633255653	Rename type 'dbConnect'
+1562633263594	Rename package 'web.dbConnect'
+1562633269119	Rename package 'web.bordDAO'
+1562633275733	Rename type 'bordController'
+1562633282598	Rename package 'web.bordController'
+1562633289963	Rename package 'web.bordCommend'
+1562633296184	Rename type 'bordWrite'
+1562633301459	Rename type 'Commend'
+1562724670370	Rename resource 'BordListView.jsp'
+1562725424173	Copy compilation unit
+1562806954684	Delete element
+1562814988219	Copy compilation unit
+1562895251282	Copy compilation unit
+1562917792714	Move file

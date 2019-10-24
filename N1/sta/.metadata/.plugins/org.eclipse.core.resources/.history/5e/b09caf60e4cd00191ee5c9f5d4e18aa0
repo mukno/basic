@@ -1,0 +1,34 @@
+/**
+ * register_jquery_validate.html의 유효성 검증
+ */
+
+$(function(){
+	//submit 버튼이 실행되면
+	
+	$("join").submit(function(e){
+		
+		e.preventDefault();
+	})
+	
+	
+
+	
+	//사용자가 입력한 값 가져오기
+	//userid,userpw,confirmpwd,gender,email.mobile
+	
+	var userid=$("#userid").val();
+	var userpw=$("#userpw").val();
+	var confirmpwd=$("confirmpwd").val();
+	var email=$("email").val();
+	var mobile=$("mobile").val();
+	//아이디 영대소문자,숫자 특수문자가 포함된 6~12
+	var regId=/(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*]).{6,12}/;
+	//비밀번호 영대소문자 숫자가 포함된8~15
+	var regPwd=/(\w).{8,15}$/;//;
+	//핸드폰번호
+	var regMobile=/\d{3}\d{4}\d{4}\/;
+	
+	
+	
+	
+})

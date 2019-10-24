@@ -1,0 +1,285 @@
+
+5월 24, 2019 17:33:17.87 NEW SESSION
+5월 24, 2019 17:33:17.87 [10140:5984:0524/173317.863:ERROR:browser_process_sub_thread.cc(217)] Waited 8 ms for network service
+5월 24, 2019 17:33:17.94 
+5월 24, 2019 17:33:17.94 KLIB_SelfTest return : KLR_OK
+
+5월 29, 2019 16:09:45.23 NEW SESSION
+5월 29, 2019 16:09:45.23 [2544:9620:0529/160945.225:ERROR:browser_process_sub_thread.cc(217)] Waited 8 ms for network service
+5월 29, 2019 16:09:45.28 
+5월 29, 2019 16:09:45.28 KLIB_SelfTest return : KLR_OK
+5월 29, 2019 16:15:36.35 [492:9352:0529/161536.356:ERROR:browser_process_sub_thread.cc(217)] Waited 7 ms for network service
+5월 29, 2019 16:15:36.41 
+5월 29, 2019 16:15:36.41 KLIB_SelfTest return : KLR_OK
+5월 29, 2019 16:27:40.56 [9940:7148:0529/162740.561:ERROR:browser_process_sub_thread.cc(217)] Waited 6 ms for network service
+5월 29, 2019 17:56:46.90 [9148:2536:0529/175646.884:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+5월 29, 2019 17:56:46.97 
+5월 29, 2019 17:56:46.97 KLIB_SelfTest return : KLR_OK
+
+5월 30, 2019 15:24:20.30 NEW SESSION
+5월 30, 2019 15:24:20.30 [7188:8700:0530/152420.284:ERROR:browser_process_sub_thread.cc(217)] Waited 8 ms for network service
+5월 30, 2019 15:24:20.34 
+5월 30, 2019 15:24:20.34 KLIB_SelfTest return : KLR_OK
+5월 30, 2019 15:25:05.45 [9900:7692:0530/152505.455:ERROR:browser_process_sub_thread.cc(217)] Waited 12 ms for network service
+5월 30, 2019 15:25:05.52 
+5월 30, 2019 15:25:05.52 KLIB_SelfTest return : KLR_OK
+5월 30, 2019 15:26:48.39 [8532:4952:0530/152648.390:ERROR:browser_process_sub_thread.cc(217)] Waited 6 ms for network service
+5월 30, 2019 15:26:48.44 
+5월 30, 2019 15:26:48.44 KLIB_SelfTest return : KLR_OK
+
+6월 03, 2019 12:40:34.80 NEW SESSION
+6월 03, 2019 12:40:34.80 [9116:6544:0603/124034.788:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+6월 03, 2019 12:40:34.82 
+6월 03, 2019 12:40:34.82 KLIB_SelfTest return : KLR_OK
+6월 03, 2019 13:36:58.10 [7392:8352:0603/133658.100:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 03, 2019 13:37:25.09 [7392:8352:0603/133725.093:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 03, 2019 15:34:36.46 [7392:8352:0603/153436.459:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 03, 2019 15:45:07.76 [7392:8352:0603/154507.767:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 03, 2019 16:43:33.85 [7392:8352:0603/164333.850:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 03, 2019 17:30:49.45 [7392:9888:0603/173049.449:ERROR:browser_process_sub_thread.cc(217)] Waited 11 ms for network service
+6월 03, 2019 17:30:49.54 
+6월 03, 2019 17:30:49.54 KLIB_SelfTest return : KLR_OK
+
+6월 10, 2019 10:42:08.32 NEW SESSION
+6월 10, 2019 10:42:08.32 [9596:9336:0610/104208.275:ERROR:browser_process_sub_thread.cc(217)] Waited 14 ms for network service
+6월 10, 2019 10:44:10.64 [11168:10380:0610/104410.641:ERROR:browser_process_sub_thread.cc(217)] Waited 7 ms for network service
+6월 10, 2019 10:44:10.70 
+6월 10, 2019 10:44:10.70 KLIB_SelfTest return : KLR_OK
+6월 10, 2019 10:44:49.05 [8844:8220:0610/104449.050:ERROR:browser_process_sub_thread.cc(217)] Waited 18 ms for network service
+6월 10, 2019 10:44:49.12 
+6월 10, 2019 10:44:49.12 KLIB_SelfTest return : KLR_OK
+6월 10, 2019 10:46:26.35 [11028:3096:0610/104626.352:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+6월 10, 2019 10:46:26.41 
+6월 10, 2019 10:46:26.41 KLIB_SelfTest return : KLR_OK
+6월 10, 2019 10:52:08.15 [10136:7608:0610/105208.132:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-EVjR8L4xuo0c7UNzAtLmKQoojKIjdHqYIqdanwmukFQ=' 'sha256-ps+f+kvXv/saiMZBvZdqrnWV6Gcxo4dQ9UAG6SXPM6M=' 'sha256-YUYyUdaHPr4vPwR1MbbgywsO6nfhVmXMpy6ILGW3rKk=' 'sha256-ydzrIpu7RPpN+/W1u5M3gE6zl+u6KRMtbQEzdDt/Uao=' 'sha256-KNY16OU2yK5dZbn5VtmVD+8Nko2v7x2ZPfUGq+DvZEs=' 'sha256-lj3Ybq0OcgGBTQmk7PbTtC0eH6NJaDsZHXnY9olO7Mk=' 'sha256-PD+7Krobzp4bjF2GhtRb0yMKpkh2wMO6ONxT2woe4jw='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.
+6월 10, 2019 10:52:08.17 ", source: chrome-search://local-ntp/local-ntp.html (1)
+6월 10, 2019 11:37:22.40 [10136:9740:0610/113722.378:ERROR:browser_process_sub_thread.cc(217)] Waited 27 ms for network service
+6월 10, 2019 11:37:22.52 
+6월 10, 2019 11:37:22.52 KLIB_SelfTest return : KLR_OK
+6월 10, 2019 11:42:34.98 [9204:9572:0610/114234.981:ERROR:browser_process_sub_thread.cc(217)] Waited 4 ms for network service
+6월 10, 2019 11:42:35.03 
+6월 10, 2019 11:42:35.03 KLIB_SelfTest return : KLR_OK
+6월 10, 2019 11:43:46.31 [10320:5016:0610/114346.315:ERROR:browser_process_sub_thread.cc(217)] Waited 9 ms for network service
+6월 10, 2019 11:52:47.13 [4824:704:0610/115247.116:ERROR:CONSOLE(1)] "Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'strict-dynamic' 'sha256-EVjR8L4xuo0c7UNzAtLmKQoojKIjdHqYIqdanwmukFQ=' 'sha256-ps+f+kvXv/saiMZBvZdqrnWV6Gcxo4dQ9UAG6SXPM6M=' 'sha256-YUYyUdaHPr4vPwR1MbbgywsO6nfhVmXMpy6ILGW3rKk=' 'sha256-ydzrIpu7RPpN+/W1u5M3gE6zl+u6KRMtbQEzdDt/Uao=' 'sha256-KNY16OU2yK5dZbn5VtmVD+8Nko2v7x2ZPfUGq+DvZEs=' 'sha256-lj3Ybq0OcgGBTQmk7PbTtC0eH6NJaDsZHXnY9olO7Mk=' 'sha256-PD+7Krobzp4bjF2GhtRb0yMKpkh2wMO6ONxT2woe4jw='". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.
+6월 10, 2019 11:52:47.18 ", source: chrome-search://local-ntp/local-ntp.html (1)
+6월 10, 2019 12:03:22.50 [4824:9332:0610/120322.501:ERROR:browser_process_sub_thread.cc(217)] Waited 36 ms for network service
+6월 10, 2019 12:03:22.65 
+6월 10, 2019 12:03:22.65 KLIB_SelfTest return : KLR_OK
+
+6월 12, 2019 12:14:26.78 NEW SESSION
+6월 12, 2019 12:14:26.78 [9620:3592:0612/121426.767:ERROR:browser_process_sub_thread.cc(217)] Waited 16 ms for network service
+6월 12, 2019 12:14:26.83 
+6월 12, 2019 12:14:26.83 KLIB_SelfTest return : KLR_OK
+
+6월 13, 2019 09:32:22.64 NEW SESSION
+6월 13, 2019 09:32:22.64 [7612:2300:0613/093222.638:ERROR:browser_process_sub_thread.cc(217)] Waited 6 ms for network service
+6월 13, 2019 09:32:22.67 
+6월 13, 2019 09:32:22.67 KLIB_SelfTest return : KLR_OK
+
+6월 13, 2019 12:08:55.93 NEW SESSION
+6월 13, 2019 12:08:55.93 [5412:6588:0613/120855.930:ERROR:backend_impl.cc(1063)] Critical error found -8
+6월 13, 2019 12:19:49.12 [5412:7588:0613/121949.127:ERROR:browser_process_sub_thread.cc(217)] Waited 6 ms for network service
+6월 13, 2019 12:19:49.16 
+6월 13, 2019 12:19:49.16 KLIB_SelfTest return : KLR_OK
+6월 13, 2019 12:20:01.35 [1880:764:0613/122001.349:ERROR:browser_process_sub_thread.cc(217)] Waited 10 ms for network service
+6월 13, 2019 12:20:01.37 
+6월 13, 2019 12:20:01.37 KLIB_SelfTest return : KLR_OK
+6월 13, 2019 12:45:14.56 [2436:552:0613/124514.563:ERROR:browser_process_sub_thread.cc(217)] Waited 6 ms for network service
+6월 13, 2019 12:45:14.61 
+6월 13, 2019 12:45:14.61 KLIB_SelfTest return : KLR_OK
+
+6월 17, 2019 14:53:50.62 NEW SESSION
+6월 17, 2019 14:53:50.62 [3992:2348:0617/145350.591:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 17, 2019 15:35:46.35 [3992:2348:0617/153546.359:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 17, 2019 15:46:17.72 [3992:2348:0617/154617.727:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 17, 2019 15:54:10.74 [3992:2348:0617/155410.740:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+6월 17, 2019 17:30:25.06 [3992:6316:0617/173025.063:ERROR:browser_process_sub_thread.cc(217)] Waited 20 ms for network service
+6월 17, 2019 17:30:25.14 
+6월 17, 2019 17:30:25.14 KLIB_SelfTest return : KLR_OK
+
+6월 25, 2019 09:47:39.69 NEW SESSION
+6월 25, 2019 09:47:39.69 [5512:6120:0625/094739.692:ERROR:backend_impl.cc(1060)] Critical error found -8
+
+6월 25, 2019 10:19:43.93 NEW SESSION
+6월 25, 2019 10:19:43.93 [7196:4152:0625/101943.933:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+6월 25, 2019 10:19:43.98 
+6월 25, 2019 10:19:43.98 KLIB_SelfTest return : KLR_OK
+6월 25, 2019 10:20:34.81 [3644:3388:0625/102034.815:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+6월 25, 2019 10:20:34.87 
+6월 25, 2019 10:20:34.87 KLIB_SelfTest return : KLR_OK
+6월 25, 2019 10:20:57.23 [6748:728:0625/102057.232:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 25, 2019 10:47:43.62 [4448:8376:0625/104743.628:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+6월 25, 2019 10:47:43.67 
+6월 25, 2019 10:47:43.67 KLIB_SelfTest return : KLR_OK
+6월 25, 2019 10:48:31.99 [556:9576:0625/104831.993:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 25, 2019 10:48:32.04 
+6월 25, 2019 10:48:32.04 KLIB_SelfTest return : KLR_OK
+6월 25, 2019 10:48:45.07 [8608:7376:0625/104845.073:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+6월 25, 2019 10:48:45.10 
+6월 25, 2019 10:48:45.10 KLIB_SelfTest return : KLR_OK
+6월 25, 2019 12:22:26.96 [6388:10084:0625/122226.964:ERROR:rankings.cc(781)] Inconsistent LRU.
+6월 25, 2019 12:22:26.96 [6388:10084:0625/122226.964:ERROR:backend_impl.cc(1060)] Critical error found -8
+6월 25, 2019 13:29:18.07 [6388:7612:0625/132918.075:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+6월 25, 2019 13:29:18.16 
+6월 25, 2019 13:29:18.16 KLIB_SelfTest return : KLR_OK
+
+6월 26, 2019 11:34:22.68 NEW SESSION
+6월 26, 2019 11:34:22.68 [8560:5876:0626/113422.688:ERROR:backend_impl.cc(1060)] Critical error found -8
+6월 26, 2019 11:34:26.62 [8560:5876:0626/113426.620:ERROR:backend_impl.cc(1060)] Critical error found -8
+6월 26, 2019 12:47:12.06 [8560:8008:0626/124712.064:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+6월 26, 2019 12:47:12.12 
+6월 26, 2019 12:47:12.12 KLIB_SelfTest return : KLR_OK
+
+6월 27, 2019 10:40:36.36 NEW SESSION
+6월 27, 2019 10:40:36.36 [7552:1856:0627/104036.365:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+6월 27, 2019 10:40:36.77 
+6월 27, 2019 10:40:36.77 KLIB_SelfTest return : KLR_OK
+6월 27, 2019 10:56:43.25 [8940:9048:0627/105643.254:ERROR:browser_process_sub_thread.cc(221)] Waited 95 ms for network service
+6월 27, 2019 10:56:43.40 
+6월 27, 2019 10:56:43.40 KLIB_SelfTest return : KLR_OK
+6월 27, 2019 10:57:27.36 [9536:8880:0627/105727.359:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+6월 27, 2019 10:57:27.39 
+6월 27, 2019 10:57:27.40 KLIB_SelfTest return : KLR_OK
+6월 27, 2019 10:59:39.35 [3304:1856:0627/105939.352:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+6월 27, 2019 11:07:52.05 [8604:320:0627/110752.032:ERROR:browser_process_sub_thread.cc(221)] Waited 61 ms for network service
+6월 27, 2019 11:07:52.11 
+6월 27, 2019 11:07:52.11 KLIB_SelfTest return : KLR_OK
+6월 27, 2019 13:55:06.86 [7204:8896:0627/135506.843:ERROR:browser_process_sub_thread.cc(221)] Waited 84 ms for network service
+6월 27, 2019 13:55:06.96 
+6월 27, 2019 13:55:06.96 KLIB_SelfTest return : KLR_OK
+
+7월 03, 2019 10:11:00.50 NEW SESSION
+7월 03, 2019 10:11:00.50 [1412:8548:0703/101100.443:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:11:00.51 [1412:8548:0703/101100.501:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:11:00.51 [1412:8548:0703/101100.501:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:11:00.51 [1412:8548:0703/101100.501:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 03, 2019 10:13:48.16 [5688:1332:0703/101348.164:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:13:48.16 [5688:1332:0703/101348.164:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:13:48.16 [5688:1332:0703/101348.164:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:13:48.16 [5688:1332:0703/101348.164:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 03, 2019 10:14:30.99 [7308:7912:0703/101430.977:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:14:30.99 [7308:7912:0703/101430.990:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:14:30.99 [7308:7912:0703/101430.990:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:14:30.99 [7308:7912:0703/101430.990:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 03, 2019 10:14:57.32 [1252:4932:0703/101457.325:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:14:57.32 [1252:4932:0703/101457.325:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:14:57.32 [1252:4932:0703/101457.326:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:14:57.32 [1252:4932:0703/101457.326:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 03, 2019 10:15:55.14 [444:1220:0703/101555.139:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:15:55.17 [444:1220:0703/101555.140:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:15:55.17 [444:1220:0703/101555.140:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:15:55.17 [444:1220:0703/101555.140:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 03, 2019 10:16:14.31 [7052:2740:0703/101614.297:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:16:14.31 [7052:2740:0703/101614.315:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:16:14.31 [7052:2740:0703/101614.315:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:16:14.31 [7052:2740:0703/101614.315:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+
+7월 03, 2019 10:17:26.41 NEW SESSION
+7월 03, 2019 10:17:26.41 [1600:2792:0703/101726.411:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 03, 2019 10:17:26.41 [1600:2792:0703/101726.413:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 03, 2019 10:17:26.41 [1600:2792:0703/101726.414:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 03, 2019 10:17:26.41 [1600:2792:0703/101726.414:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+
+7월 03, 2019 10:27:35.60 NEW SESSION
+7월 03, 2019 10:27:35.60 [6888:8248:0703/102735.600:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+7월 03, 2019 10:27:35.65 
+7월 03, 2019 10:27:35.66 KLIB_SelfTest return : KLR_OK
+7월 03, 2019 10:32:20.46 [5028:1880:0703/103220.462:ERROR:browser_process_sub_thread.cc(221)] Waited 4 ms for network service
+7월 03, 2019 10:32:20.52 
+7월 03, 2019 10:32:20.52 KLIB_SelfTest return : KLR_OK
+
+7월 05, 2019 10:18:09.21 NEW SESSION
+7월 05, 2019 10:18:09.21 [8528:9248:0705/101809.194:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+7월 05, 2019 10:18:09.25 
+7월 05, 2019 10:18:09.25 KLIB_SelfTest return : KLR_OK
+
+7월 08, 2019 11:18:03.66 NEW SESSION
+7월 08, 2019 11:18:03.66 [4188:8824:0708/111803.599:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 11:18:03.97 [4188:8824:0708/111803.974:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 11:18:10.37 [4188:764:0708/111810.376:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 11:18:10.74 [4188:764:0708/111810.745:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 14:50:13.87 [0708/145013.757:ERROR:file_io.cc(134)] WriteFile: 파이프가 닫히는 중입니다. (0xE8)
+7월 08, 2019 15:49:52.00 [4188:11492:0708/154951.987:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:49:52.36 [4188:11492:0708/154952.364:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:50:05.66 [4188:8744:0708/155005.662:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:50:06.04 [4188:8744:0708/155006.039:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:50:24.64 [4188:11088:0708/155024.620:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:50:25.00 [4188:11088:0708/155025.001:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:51:09.82 [4188:10972:0708/155109.811:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 15:51:11.95 [4188:10972:0708/155111.952:ERROR:os_crypt_win.cc(61)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
+7월 08, 2019 17:27:29.50 [4188:1020:0708/172729.406:ERROR:browser_process_sub_thread.cc(221)] Waited 957 ms for network service
+7월 08, 2019 17:27:30.92 
+7월 08, 2019 17:27:30.93 KLIB_SelfTest return : KLR_OK
+
+7월 09, 2019 11:37:41.21 NEW SESSION
+7월 09, 2019 11:37:41.21 [9900:660:0709/113741.190:ERROR:browser_process_sub_thread.cc(221)] Waited 4 ms for network service
+7월 09, 2019 11:37:41.24 
+7월 09, 2019 11:37:41.24 KLIB_SelfTest return : KLR_OK
+7월 09, 2019 11:48:12.15 [8260:4124:0709/114812.159:ERROR:mcs_client.cc(754)] Received close command, resetting connection.
+7월 09, 2019 12:50:03.89 [8260:4124:0709/125003.890:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+7월 09, 2019 12:50:03.96 
+7월 09, 2019 12:50:03.96 KLIB_SelfTest return : KLR_OK
+
+7월 24, 2019 09:26:01.08 NEW SESSION
+7월 24, 2019 09:26:01.08 [10516:4964:0724/092601.082:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:26:01.24 [10516:4964:0724/092601.086:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:26:01.24 [10516:4964:0724/092601.086:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:26:01.24 [10516:4964:0724/092601.086:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:26:19.93 [2208:1464:0724/092619.929:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:26:20.21 [2208:1464:0724/092619.931:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:26:20.21 [2208:1464:0724/092619.931:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:26:20.21 [2208:1464:0724/092619.931:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:27:23.55 [8712:2024:0724/092723.555:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:27:23.61 [8712:2024:0724/092723.555:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:27:23.61 [8712:2024:0724/092723.555:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:27:23.61 [8712:2024:0724/092723.555:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+
+7월 24, 2019 09:28:52.03 NEW SESSION
+7월 24, 2019 09:28:52.03 [10908:7500:0724/092852.030:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:28:52.05 [10908:7500:0724/092852.033:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:28:52.05 [10908:7500:0724/092852.033:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:28:52.06 [10908:7500:0724/092852.033:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:29:31.07 [8380:10620:0724/092930.888:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:29:31.07 [8380:10620:0724/092931.072:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:29:31.07 [8380:10620:0724/092931.072:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:29:31.07 [8380:10620:0724/092931.072:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:30:30.82 [8780:8944:0724/093030.815:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:30:30.85 [8780:8944:0724/093030.824:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:30:30.86 [8780:8944:0724/093030.824:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:30:30.86 [8780:8944:0724/093030.824:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:32:39.28 [5276:8852:0724/093239.284:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:32:39.30 [5276:8852:0724/093239.286:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:32:39.30 [5276:8852:0724/093239.286:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:32:39.30 [5276:8852:0724/093239.286:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:33:00.73 [5940:8524:0724/093300.731:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:33:00.73 [5940:8524:0724/093300.732:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:33:00.73 [5940:8524:0724/093300.732:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:33:00.73 [5940:8524:0724/093300.732:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:33:49.84 [8512:11196:0724/093349.840:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:33:49.84 [8512:11196:0724/093349.842:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:33:49.84 [8512:11196:0724/093349.842:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:33:49.84 [8512:11196:0724/093349.842:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:35:14.11 [4192:4496:0724/093514.112:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:35:14.11 [4192:4496:0724/093514.115:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:35:14.11 [4192:4496:0724/093514.115:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:35:14.11 [4192:4496:0724/093514.115:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+
+7월 24, 2019 09:36:02.24 NEW SESSION
+7월 24, 2019 09:36:02.24 [7812:8604:0724/093602.242:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:36:02.24 [7812:8604:0724/093602.244:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:36:02.24 [7812:8604:0724/093602.244:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:36:02.24 [7812:8604:0724/093602.244:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:38:03.15 [10532:10448:0724/093803.157:ERROR:cache_util_win.cc(21)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
+7월 24, 2019 09:38:03.15 [10532:10448:0724/093803.158:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\admin\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+7월 24, 2019 09:38:03.15 [10532:10448:0724/093803.158:ERROR:disk_cache.cc(178)] Unable to create cache
+7월 24, 2019 09:38:03.15 [10532:10448:0724/093803.158:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+7월 24, 2019 09:38:03.36 [10532:10448:0724/093803.362:ERROR:browser_process_sub_thread.cc(221)] Waited 30 ms for network service
+7월 24, 2019 09:50:50.14 [3664:10172:0724/095050.141:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+7월 24, 2019 09:50:50.21 
+7월 24, 2019 09:50:50.21 KLIB_SelfTest return : KLR_OK
+7월 24, 2019 11:26:54.55 [1020:1212:0724/112654.547:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+7월 24, 2019 11:26:54.63 
+7월 24, 2019 11:26:54.63 KLIB_SelfTest return : KLR_OK
+7월 24, 2019 13:44:28.64 [10692:8328:0724/134428.649:ERROR:browser_process_sub_thread.cc(221)] Waited 51 ms for network service
+7월 24, 2019 13:44:28.80 
+7월 24, 2019 13:44:28.80 KLIB_SelfTest return : KLR_OK

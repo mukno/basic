@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form id ="action" action="">
+		<div>
+			<label for="username">이름</label>
+			<input type="text"name="username"id="username" />
+		</div>
+		<div>
+			<label for="usertel">전화번호</label>
+			<input type="text"name="usertel"id="usertel" />
+		</div>
+		<div>
+			<label for="userPw">비밀번호</label>
+			<input type="text"name="userPw"id="userPw" />
+		</div>
+		<div>
+			<button id="view">버튼읽기</button>
+			<button id="modify">내용수정</button>
+			<button id="delete">내용삭제</button>
+		</div>
+	
+	</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+
+	$(function(){
+		
+		//각 버튼에따라 action변경
+		$("#view").click(function(){
+			
+			$("#action").attr("action","jquery10.html");
+			$("#userPw").remove();
+			
+		});
+		
+		$("#modify").click(function(){
+			
+			$("#action").attr("action","jquery11.html");
+			
+		});
+		
+		$("#delete").click(function(){
+			
+			$("#action").empty();
+			$("#action").attr("action","jquery12.html");
+			$("#action").append
+			('<input type="text" name="userage" id="userage" value="15"/>');
+			$("#action").submit();
+			
+			
+		});
+		
+		
+	})
+	
+
+
+</script>
+
+
+</body>
+</html>

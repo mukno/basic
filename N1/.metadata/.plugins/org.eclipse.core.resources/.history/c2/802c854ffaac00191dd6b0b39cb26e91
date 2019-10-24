@@ -1,0 +1,44 @@
+package org.web.memberdto;
+
+import java.sql.Timestamp;
+
+public class memberDTO {
+
+	private String userId;
+	private String userPw;
+	private String Nickname;
+	public memberDTO() {
+		// TODO Auto-generated constructor stub
+	}
+	public memberDTO(String userId, String userPw, String nickname) {
+		super();
+		this.userId = userId;
+		this.userPw = userPw;
+		this.Nickname = nickname;
+	}
+	public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	public String getUserPw() {
+		return userPw;s
+	}
+	public void setUserPw(String userPw) {
+		this.userPw = userPw;
+	}
+	public String getNickname() {
+		return Nickname;
+	}
+	public void setNickname(String nickname) {
+		this.Nickname = nickname;
+	}
+	
+	
+	
+	
+	
+
+
+}

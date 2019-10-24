@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#header{
+	height:40px;
+	background:black;
+	color:white;
+}
+#hContent{
+	margin-left:167px;
+	margin-right:167px;
+	height:40px;
+	
+	
+}
+#hContent .leftContent{
+	float:left;
+	background:red;
+	
+	
+	
+}
+#hContent .rightContent{
+	width:300px;
+	font-size:16px;
+	float:right;
+	overflow:hidden;
+	
+	
+	
+}
+#hContent .rightContent >ul>li{
+	
+	border: 1px solid #ff0;
+	float:left;
+	line-heght:40px;
+	}
+#hContent .rightContent >ul>li.r1{
+	width:60px;
+	
+	}
+#hContent .rightContent >ul>li.r2{
+	width:200px;
+	}
+#hContent .rightContent >ul>li.r3{
+	width:40px;
+	
+	}
+	
+	

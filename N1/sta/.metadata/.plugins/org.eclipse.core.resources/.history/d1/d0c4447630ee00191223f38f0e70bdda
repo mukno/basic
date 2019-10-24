@@ -1,0 +1,11 @@
+package com.spring.domain;
+
+public class BoardAttach {
+	private String uuid;
+	private String uploadPath;
+	private String fileName;
+	private boolean fileType;
+	private int bno;
+	
+
+}

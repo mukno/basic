@@ -1,0 +1,17 @@
+package org.web.memberdao;
+
+public class MemberDAO {
+
+	private MemberDAO() {
+		
+	}
+	private static class Singleton{
+		
+	}
+	public static MemberDAO getInstance() {
+		return Singleton.INSTANCE;
+	}
+	
+	
+
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#header{
+	width:98%;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+#header >ul >li{
+	float:left;
+	box-sizing:border-box;
+	width:25%;
+	line-height:50px;
+	border: 1px solid #ccc;
+}
+
+#header >ul >li a{
+	display: block;
+	background: #555;
+	color: #fff;
+	text-align: center;
+}
+

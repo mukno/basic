@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script>
+
+	function checkform(){
+		//이름이 비어있지 않고, 2~4자리까지만 허용
+		//범위를넘어가면 경고창 띄우기
+		var name=document.getElementById("name");
+		var age=document.getElementById("age");
+		var agev=parseInt(age.value);
+		
+		console.log(agev);
+		console.log(name.value.length);
+		
+		if(name.value==""||name.value.length<2||name.value.length>4){
+			alert("이름이 비거나 초과,미만입니다.");
+			
+		}
+		
+		
+		if(age.value==""||agev<0||agev>120){
+			alert("나이가 비거나 초과,미만입니다.");
+			
+		}
+
+		
+		
+		//나이:비어이지않고,0~120까지만 허용
+		//경고창 띄우기
+	}
+</script>
+</head>
+<body>
+	<form action="">
+		<div>
+			<label for="namea">이름</label>
+			<input type="text" name="name" id="name"/>
+		</div>
+		<div>
+			<label for="agea">나이</label>
+			<input type="text" name="age" id="age"/>
+		</div>
+		
+		<div>
+			<input type="button" onclick="checkform()" value="보내기"/>
+		</div>
+	
+	</form>
+</body>
+</html>

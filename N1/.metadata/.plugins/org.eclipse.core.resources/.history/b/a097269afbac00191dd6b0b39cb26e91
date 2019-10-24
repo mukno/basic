@@ -1,0 +1,30 @@
+package org.web.memberdao;
+
+public class MemberDAO {
+
+	private MemberDAO() {
+		
+	}
+	private static class Singleton{
+		private static final MemberDAO INSTANCE=new MemberDAO();
+	}
+	public static MemberDAO getInstance() {
+		return Singleton.INSTANCE;
+	}
+	
+	
+	public int join(String userId,String userPw,String Nickname)
+	{
+		int result=0;
+		DBConnect DBC=web.DBConnect.DBConnect.getConnection();
+		
+		
+		
+		
+		
+		return result;
+	}
+	
+	
+
+}

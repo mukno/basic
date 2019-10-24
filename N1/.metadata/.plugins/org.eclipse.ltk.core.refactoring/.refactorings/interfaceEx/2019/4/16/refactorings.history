@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.java.interfaceEx.AbstarctEx1Sub&apos; to &apos;AbstractEx1Sub&apos;&#x0D;&#x0A;- Original project: &apos;interfaceEx&apos;&#x0D;&#x0A;- Original element: &apos;org.java.interfaceEx.AbstarctEx1Sub&apos;&#x0D;&#x0A;- Renamed element: &apos;org.java.interfaceEx.AbstractEx1Sub&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AbstarctEx1Sub&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.java.interfaceEx{AbstarctEx1Sub.java[AbstarctEx1Sub" matchStrategy="1" name="AbstractEx1Sub" qualified="false" references="true" similarDeclarations="false" stamp="1555644991678" textual="false" version="1.0"/>
+</session>

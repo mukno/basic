@@ -1,0 +1,23 @@
+@charset "UTF-8";
+#wrap{
+	width:100%;
+	height:100%;
+	background:url(../../img/content/index/index0.jpg) no-repeat;
+	background-szie:cover;
+	background-position:50%;
+	background-attachment: fixed;
+	
+	
+}
+#indexContent{
+	width:100%;
+	height:100%;
+}
+#indexContent #indexGallery{
+	width :100%;
+	height:100%;
+	position:relative;
+	border: 10px solid #f00;
+	box-sizing: border-box;
+	
+}

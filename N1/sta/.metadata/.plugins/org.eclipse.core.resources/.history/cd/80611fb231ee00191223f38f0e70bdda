@@ -1,0 +1,7 @@
+package com.spring.mapper;
+
+public class BoardAttachMapper {
+	public int insert(BoardAttachVO vo);
+	public int delete(String uuid);
+	public List<BoardAttachVO> findByBno(int bno);
+}

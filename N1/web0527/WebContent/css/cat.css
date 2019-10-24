@@ -1,0 +1,14 @@
+.category-list {
+  background-color: #fafafa;
+  padding-bottom: 15px;
+}
+.category-list .row {
+  padding: 5px;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.category-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

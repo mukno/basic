@@ -1,0 +1,198 @@
+package web.BordDAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+
+import web.DBConnect.DBConnect;
+import web.bordDTO.BordDTO;
+import web.bordDTO.PagingClass;
+
+public class BordDAO {
+
+private BordDAO() {
+		
+	}
+	private static class Singleton{
+		private static final BordDAO INSTANCE=new BordDAO();
+	}
+	public static BordDAO getInstance() {
+		return Singleton.INSTANCE;
+	}
+	
+	
+	public ArrayList<BordDTO> BordList(){
+		ArrayList<BordDTO> lists=new ArrayList<BordDTO>();
+		Connection conn=null;
+		PreparedStatement pstm=null;
+		ResultSet rs=null;
+		
+		
+		conn=DBConnect.getConnection();
+		
+		String query="select *from bord0722";
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			rs=pstm.executeQuery();
+			
+			while(rs.next()) {
+				
+				lists.add(new BordDTO(rs.getInt(1),rs.getString(2),rs.getString(3),
+						rs.getString(4),rs.getTimestamp(5),rs.getString(6),rs.getString(7)));
+			}
+			
+			
+		}catch(SQLException e){
+			e.printStackTrace();
+			
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(SQLException e){
+				e.printStackTrace();
+			}finally {
+				
+			}
+			
+		}
+		
+		
+		
+		
+		return lists;
+	}
+
+	public PagingClass paging1(int pNum) {
+	//실제 레코드처리
+		
+		
+	PagingClass pagingLists=null;	
+	
+	Connection conn=null;
+	PreparedStatement pstm=null;
+	ResultSet rs=null;
+	
+	
+	int rowSize=5;//한 페이지 당 레코드 수
+	int block=5;//한 페이지에 보일 페이지 수
+	int startNm=(pNum-1)*rowSize;//가져올 레코드 첫번째
+	int endNum=rowSize;//가져올 레코드 개수
+	
+	//화면 숫자표시
+	int allPage=0;//전체 페이지
+	int startPage=((pNum-1)/block)*block+1;
+	//int endPage((pNum-1)/block)*block+block;
+	int endPage=startPage+block-1;
+	int total=0;//전체 레코드
+	
+	conn=DBConnect.getConnection();
+	try {
+		String query="select count(*) form bord0722";
+		
+		pstm=conn.prepareStatement(query);
+		
+		rs=pstm.executeQuery();
+		
+		while(rs.next()) {
+			total=rs.getInt(1);
+			
+		}
+		allPage=(int)Math.ceil(total/(double)rowSize);
+		if(endPage>allPage) {
+			endPage=allPage;
+		}
+		pagingLists=new PagingClass(pNum, rowSize, block, startNum, endNum, total, allPage, startPage, endPage);
+		
+		
+	}catch(SQLException e){
+		e.printStackTrace();
+		
+	}finally {
+		try {
+			if(conn!=null)conn.close();
+			if(pstm!=null)pstm.close();
+			if(rs!=null)rs.close();
+			
+		}catch(SQLException e){
+			e.printStackTrace();
+		}finally {
+			
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	}
+	
+	public ArrayList<BordDTO> list2(int startNum,int endNum){
+		ArrayList<BordDTO> lists=new ArrayList<BordDTO>();
+		Connection conn=null;
+		PreparedStatement pstm=null;
+		ResultSet rs=null;
+		
+		
+		conn=DBConnect.getConnection();
+		
+		String query="select *from bord0722 order by no desc limit ? , ?";
+		
+		try {
+			pstm=conn.prepareStatement(query);
+			
+			pstm.setInt(1, startNum);
+			pstm.setInt(2, endNum);
+			
+			
+			rs=pstm.executeQuery();
+			
+			while(rs.next()) {
+				
+				lists.add(new BordDTO(rs.getInt(1),rs.getString(2),rs.getString(3),
+						rs.getString(4),rs.getTimestamp(5),rs.getString(6),rs.getString(7)));
+			}
+			
+			
+		}catch(SQLException e){
+			e.printStackTrace();
+			
+		}finally {
+			try {
+				if(conn!=null)conn.close();
+				if(pstm!=null)pstm.close();
+				if(rs!=null)rs.close();
+				
+			}catch(SQLException e){
+				e.printStackTrace();
+			}finally {
+				
+			}
+			
+		}
+		
+		
+		
+		
+		return lists;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

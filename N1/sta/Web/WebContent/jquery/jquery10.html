@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<h3>체크박스 값 가져오기</h3>
+		<input type="checkbox" name="fruit" value="사과" />사과
+		<input type="checkbox" name="fruit" value="포도" />포도
+		<input type="checkbox" name="fruit" value="바나나" />바나나
+		<input type="checkbox" name="fruit" value="파인애플" />파인애플
+		<button type="button">체크 값 보내기</button>
+	</div>
+	
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+	$("button").click(function(){
+		
+		var sel="";
+		$("input:checked").each(function(){
+			sel+=$(this).val();
+		})
+		console.log(sel);
+		
+	})
+
+</script>
+
+
+</body>
+</html>

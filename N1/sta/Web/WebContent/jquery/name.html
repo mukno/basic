@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<label for="name">이름</label>
+		<input type="text" name="name" id="name" />
+		<button type="button">클릭</button>
+	</form>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+	$(function(){
+		$("button").click(function(){
+			//버튼 클릭시 name안에 있는 내용을 서버로 보내기]
+			var name=$("#name").val();
+			
+			$.ajax({
+				url:"name.jsp",
+				data:{name:name},//서버로 보낼데이터
+				success:function(data){
+					if($.trim(data).equalTo='true'){
+						alert("이름은 홍길동입니다.");
+						
+					}else{
+						alert('이름은 홍길동이 아닙니다.');
+						
+					}
+				}
+				
+				
+			})
+			
+		})
+		
+		
+	})
+	
+</script>
+
+</body>
+</html>

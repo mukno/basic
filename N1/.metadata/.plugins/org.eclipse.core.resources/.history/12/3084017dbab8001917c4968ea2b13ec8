@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#header{
+	height:40px;
+	background:black;
+	color:white;
+}
+#hContent{
+	margin-left:167px;
+	margin-right:167px;
+	height:40px	
+	
+}
+.leftContent{
+	
+	
+}

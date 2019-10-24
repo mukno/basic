@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<c:set var="sessionId" value="${sessionScope.sessionId }"/>
+<c:out value="${sessionId }"/>
+
+<c:choose>
+<c:when test="${sessionId !=null }">
+	<a href="index.jsp">home</a>
+	<a href="memberDelete.jsp">회원탈퇴</a>
+	<a href="memberView.jsp?userId=${sessionId }">회원조회</a>
+	<a href="index.jsp">home3</a>
+	<a href="#" onclick="ajaxLogOut()">로그아웃</a>
+	
+	<script>
+		var xhr=new XMLHttpRequest();
+		function ajaxLogOut(){
+			var url="logOut.mo";
+			
+			xhr.open("POST",url,true);
+			xhr.onreadystatechange=function(){
+				var rs=xhr.responseText;
+				
+				if(xhr.readyState==4 && xhr.status==200){
+				if(rs==1){
+					alert("로그아웃 성공");
+					
+				}else{
+					alert("로그아웃 실패");
+					
+				}
+				}
+			};
+			xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded;charset=utf8');
+			xhr.send();
+			
+			
+		}
+	
+	</script>
+	
+</c:when>
+<c:otherwise>
+	<a href="index.jsp">home5</a>
+	<a href="index.jsp">home6</a>
+	<a href="index.jsp">home7</a>
+	<a href="index.jsp">home8</a>
+	<a href="index.jsp">home9</a>
+</c:otherwise>
+</c:choose>
+
+
+</body>
+</html>

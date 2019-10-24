@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=0720/src&lt;after{Lendable.java[Lendable" modifiers="513" timestamp="1563585489947"/>
+<typeInfo handle="=spring.factorial_annotation/src\/main\/java&lt;com.spring.factorial{Calculator.java[Calculator" modifiers="513" timestamp="1566787213951"/>
+<typeInfo handle="=transaction_oracle/src\/main\/java&lt;com.spring.service{SampleService.java[SampleService" modifiers="513" timestamp="1566957995743"/>
+<typeInfo handle="=transaction_oracle/src\/main\/java&lt;com.spring.mapper{sampleMapper1.java[sampleMapper1" modifiers="513" timestamp="1566958014480"/>
+<typeInfo handle="=dbcp_member/C:\/Program Files\/Java\/jdk1.8.0_201\/jre\/lib\/rt.jar&lt;javax.swing(Action.class[Action" modifiers="1537" timestamp="1552273851681"/>
+<typeInfo handle="=dbcp_member/src&lt;member.action{Action.java[Action" modifiers="513" timestamp="1567557388026"/>
+<typeInfo handle="=spring_register/src\/main\/java&lt;com.spring.service{RegistMember.java[RegistMember" modifiers="513" timestamp="1568859947112"/>
+<typeInfo handle="=spring_board/src\/main\/java&lt;com.spring.mapper{ReplyMapper.java[ReplyMapper" modifiers="513" timestamp="1569984492365"/>
+<typeInfo handle="=spring_board/src\/main\/java&lt;com.spring.service{ReplyService.java[ReplyService" modifiers="513" timestamp="1569984208114"/>
+</typeInfoHistroy>

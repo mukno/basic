@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<div id="indexContent">
+		<div class="indexGallery">
+			<ul>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+				<li><span>가까운매장</span><span>자세히보기</span></li>
+			</ul>
+		</div>
+	
+	
+		<div class="popGallery">
+			<div class="gallery">
+				<ul>
+					<li class="in1">Gallery1</li>
+					<li class="in1">Gallery2</li>
+					<li class="in1">Gallery3</li>
+					<li class="in1">Gallery4</li>
+					<li class="in1">Gallery5</li>
+					<li class="in1">Gallery6</li>
+					<li class="in1">Gallery7</li>
+					<li class="in1">Gallery8</li>
+					<li class="in1">Gallery9</li>
+					<li class="in1">Gallery10</li>
+					<li class="in1">Gallery11</li>
+					<li class="in1">Gallery12</li>
+				</ul>
+			</div>
+			<span class="arrow"></span>
+			<span class="arrow"></span>
+		</div>
+	
+	</div>

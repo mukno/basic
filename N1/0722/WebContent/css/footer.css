@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#footer{
+	
+	width:100%;
+	height:auto;/*자식에 자동조절 */
+	position:fixed;
+	left:0;
+	bottom:0;
+	background:black;
+}
+#footerContent{
+	width:100%;
+	max-width:1000px;
+	margins:0 auto;
+	border :1px solid red;
+}
+#footerContent address{
+	width:400px;
+	height:100px;
+	margin: 0 auto;
+	background: gray;
+	line-height: 30px;
+	color:white;
+}

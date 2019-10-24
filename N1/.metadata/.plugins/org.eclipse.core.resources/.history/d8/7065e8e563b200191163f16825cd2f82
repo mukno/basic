@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#banner_area{
+	margin:0 auto;
+	
+}

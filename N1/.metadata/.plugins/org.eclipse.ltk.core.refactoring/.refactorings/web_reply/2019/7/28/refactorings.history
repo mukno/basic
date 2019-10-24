@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BordDto.java&apos; to &apos;0709pro/src/web.bordDTO&apos;&#x0D;&#x0A;- Original project: &apos;web_reply&apos;&#x0D;&#x0A;- Destination element: &apos;0709pro/src/web.bordDTO&apos;&#x0D;&#x0A;- Original element: &apos;org.web.borddto.BordDto.java&apos;" description="Copy compilation unit" destination="=0709pro/src&lt;web.bordDTO" element1="/src&lt;org.web.borddto{BordDto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1562633204000" units="1" version="1.0"/>
+</session>

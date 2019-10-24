@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<input type="text" name="name"/>
+		<input type="text" disabled="disabled"/>
+		<select name="" id="kind">
+			<option value="Apple">Apple</option>
+			<option value="Cat">Cat</option>
+			<option value="Dog">Dog</option>
+			<option value="Grape">Grape</option>
+		</select>
+		<button type="button">클릭</button>
+	</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+	$(function(){
+		//select 값의 변화가 일어나면 선택된 값을 5초뒤에 보여주기.
+		$("#kind").change(function(){
+			
+			setTimeout(function() {
+				var value=$("select option:selected").val();
+				alert(value);
+			}, 5000)
+			
+			
+		})
+		
+		
+		$("button").click(function(){
+
+			//$("input[disabled='disabled']").val("ddd");
+			//$("input:disabled").val("ddd");
+			$(":disabled").val("ddd");
+			$(":checkbox").attr("checked",true);
+			
+			
+			
+		})
+		
+	})
+	
+	
+</script>
+
+</body>
+</html>

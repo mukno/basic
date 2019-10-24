@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat1 at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat1 at localhost" name="Tomcat1 at localhost" runtime-id="Tomcat1" saveSeparateContextFiles="true" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="false" timestamp="70">
+  <list key="modules" value0="0806::org.eclipse.jst.jee.server:0806::jst.web::3.1"/>
+</server>

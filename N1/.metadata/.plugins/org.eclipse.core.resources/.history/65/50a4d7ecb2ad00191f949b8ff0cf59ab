@@ -1,0 +1,19 @@
+package web.BordDAO;
+
+import org.web.memberdao.MemberDAO;
+import org.web.memberdao.MemberDAO.Singleton;
+
+public class BordDAO {
+
+private BordDAO() {
+		
+	}
+	private static class Singleton{
+		private static final BordDAO INSTANCE=new BordDAO();
+	}
+	public static BordDAO getInstance() {
+		return Singleton.INSTANCE;
+	}
+	
+	
+}

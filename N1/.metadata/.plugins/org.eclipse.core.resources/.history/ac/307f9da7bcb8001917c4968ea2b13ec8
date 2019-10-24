@@ -1,0 +1,39 @@
+@charset "UTF-8";
+#header{
+	height:40px;
+	background:black;
+	color:white;
+}
+#hContent{
+	margin-left:167px;
+	margin-right:167px;
+	height:40px;
+	
+	
+}
+#hContent .leftContent{
+	float:left;
+	background:red;
+	
+	
+	
+}
+#hContent .rightContent{
+	width:300px;
+	font-size:30px;
+	float:right;
+	overflow:hidden;
+	height:auto;
+	
+	
+}
+#hContent .rightContent >ul>li{
+	
+	border: 1px solid #ff0;
+	float:left;
+	line-heght:40px;
+	
+
+	}
+	
+	

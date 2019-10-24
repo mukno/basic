@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;org.java.interfaceEx.polyMophizmEx.java&apos; to &apos;PolyMolphizmEx.java&apos;&#x0D;&#x0A;- Original project: &apos;java0422&apos;&#x0D;&#x0A;- Original element: &apos;org.java.interfaceEx.polyMophizmEx.java&apos;&#x0D;&#x0A;- Renamed element: &apos;org.java.interfaceEx.PolyMolphizmEx.java&apos;" description="Rename compilation unit &apos;polyMophizmEx.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;org.java.interfaceEx{polyMophizmEx.java" name="PolyMolphizmEx.java" references="false" stamp="1555900221621" version="1.0"/>
+</session>

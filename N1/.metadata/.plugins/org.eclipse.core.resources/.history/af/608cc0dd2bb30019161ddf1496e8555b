@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link rel="stylesheet" href="<c:url value='/css/reset.css'/>" media="all" />
+<link rel="stylesheet" href="<c:url value='/css/header.css'/>" media="all" />
+<link rel="stylesheet" href="<c:url value='/css/footer.css'/>" media="all" />
+<link rel="stylesheet" href="<c:url value='/css/index.css'/>" media="all" />
+</head>
+<body>
+<div id="wrap">
+	<c:import url="header.jsp"/>
+	<div id="index">
+		<div id="indexContent">
+			<div class="leftContent">
+				
+			
+			</div>
+			<div class="rightContent">
+				<div class="top">
+					<h1 class="title">WEB 2019</h1>
+					<span class="t1">Web Developer 2019</span>
+				</div>
+				<div class="content">
+					<h1 class="title2">My Portfolio</h1>
+					<div class="left">
+						<ul>
+							<li class="l1"> <img src="img/m0.jpg" alt="" /></li>
+							<li class="l2"> <img src="img/m1.jpg" alt="" /></li>
+							<li class="l3"> <img src="img/m2.jpg" alt="" /></li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li class="r1"> <img src="img/m0.jpg" alt="" /></li>
+							<li class="r2"> <img src="img/m1.jpg" alt="" /></li>
+							<li class="r3"> <img src="img/m2.jpg" alt="" /></li>
+						</ul>					
+					</div>
+				</div>
+				<div class="bottom">				
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	<c:import url="footer.jsp"/>
+</div>	
+
+
+
+	
+</body>
+</html>
